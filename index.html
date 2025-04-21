@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/07c810480b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+        
+        <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+
+    <title>CPEA</title>
+</head>
+
+<body class="font-[nunito] p-0">
+
+
+
+    <header class="hidden lg:block flex gap-5 gap-[2000px]   justify-center  flex-wrap px-3">
+        <section class="container justify-self-center flex justify-between items-center flex-wrap">
+            
+
+
+            <a href=""><img  src="./img/logo.png" alt="" width="300"></a>
+            <nav class="">
+                <ul class="flex gap-5 flex-wrap justify-center">
+        
+                    <li><a class="hover:text-green-500 hover:border-b py-3 text-xl transition-all duration-300 ease-in-out hover:scale-105"
+                            href="#home">Início</a></li>
+                
+                    <li><a class="hover:text-green-500 hover:border-b py-3 text-xl transition-all duration-300 ease-in-out hover:scale-105"
+                            href="#servicos">Serviços Técnicos</a></li>
+                    <li><a class="hover:text-green-500 hover:border-b py-3 text-xl transition-all duration-300 ease-in-out hover:scale-105"
+                            href="#formacoes">Formações</a></li>
+                    <li><a class="hover:text-green-500 hover:border-b py-3 text-xl transition-all duration-300 ease-in-out hover:scale-105"
+                            href="#workshops">Eventos Corporativos</a></li>
+                    <li><a class="hover:text-green-500 hover:border-b py-3 text-xl transition-all duration-300 ease-in-out hover:scale-105"
+                            href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            
+        </section>
+
+    </header>
+    <!-- Mobile Menu -->
+    <header class="block lg:hidden flex gap-5   justify-center  flex-wrap px-3">
+        <section class="container flex justify-between items-center flex-wrap">
+
+            <a href=""><img  src="./favicon.png" alt="" width="50"></a>
+            <i class="fa-solid fa-bars block lg:hidden text-3xl z-101" id="burger"></i>
+        </section>
+
+    </header>
+    <section id="menu-mobile" class="absolute z-100 right-0 bg-green-200 top-0 p-5 pt-15 hidden">
+        <nav class="">
+            <ul class="grid gap-5">
+    
+                <li><a class="hover:text-green-500 hover:border-b py-3 text-xl transition-all duration-300 ease-in-out hover:scale-105"
+                        href="#home">Início</a></li>
+            
+                <li><a class="hover:text-green-500 hover:border-b py-3 text-xl transition-all duration-300 ease-in-out hover:scale-105"
+                        href="#servicos">Serviços Técnicos</a></li>
+                <li><a class="hover:text-green-500 hover:border-b py-3 text-xl transition-all duration-300 ease-in-out hover:scale-105"
+                        href="#formacoes">Formações</a></li>
+                <li><a class="hover:text-green-500 hover:border-b py-3 text-xl transition-all duration-300 ease-in-out hover:scale-105"
+                        href="#workshops">Eventos Corporativos</a></li>
+                <li><a class="hover:text-green-500 hover:border-b py-3 text-xl transition-all duration-300 ease-in-out hover:scale-105"
+                        href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </section>
+    
+  
+    <main>
+
+        
+        <!-- Sessao 0 -->
+         <section id="carrossel-um" class="owl-carousel">
+            <section class="grid relative items-center ">
+                <div class="bg-[url('./img/1.jpg')] bg-cover bg-center h-140 w-full"></div>
+                <section class=" absolute container grid md:gap-10 grid-cols-[40px_minmax(200px,_1fr)_40px] justify-items-start justify-self-center items-center px-3">
+    
+                    <i class="fa-solid fa-caret-left bg-green-500 py-2 px-3 rounded-full"></i>
+                    <article class="grid gap-5 text-white">
+                        <h1 class="font-medium text-3xl md:text-5xl max-w-[20ch]">Transformamos ideias <br> em soluções reais</span> para o seu sucesso</h1>  
+                        <p class="text-[14px] md:text-[18px] leading-[auto] w-[40ch] justify-self-start ">Soluções práticas e
+                            personalizadas
+                            para promover a educação, o desenvolvimento económico e a coesão social em comunidades por todo
+                            o
+                            país.</p>
+                            <button id="openModal" class="openModal text-base bg-green-500 justify-self-start px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium block transition-all duration-300 ease-in-out hover:bg-green-600 hover:scale-105">
+                                Solicitar Serviço
+                              </button>
+                    </article>
+                    <i class="fa-solid fa-caret-right bg-green-500 py-2 px-3 rounded-full"></i>
+               
+                  
+                </section>
+                   <!-- Dots -->
+          
+            
+             </section>
+             <section class="grid relative items-center ">
+                <div class="bg-[url('./img/nicholas.jpg')] bg-cover bg-center h-140 w-full"></div>
+                <section class=" absolute container grid md:gap-10 grid-cols-[40px_minmax(200px,_1fr)_40px] justify-items-start justify-self-center items-center px-3">
+    
+                    <i class="fa-solid fa-caret-left bg-green-500 py-2 px-3 rounded-full"></i>
+                    <article class="grid gap-5 text-white">
+                        <h1 class="font-medium text-3xl md:text-5xl max-w-[20ch]">
+                            Transformamos negócios <br> em soluções reais</span> para o seu sucesso
+                          </h1>
+                          <p class="text-[14px] md:text-[18px] leading-[auto] w-[40ch] justify-self-start">
+                            Soluções práticas e personalizadas para elevar empresas, optimizar recursos e fortalecer projectos em todo o país.
+                          </p>
+                          
+                          
+                          
+                            <button id="openModal" class="openModal text-base bg-green-500 justify-self-start px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium block transition-all duration-300 ease-in-out hover:bg-green-600 hover:scale-105">
+                                Solicitar Serviço
+                              </button>
+                    </article>
+                    <i class="fa-solid fa-caret-right bg-green-500 py-2 px-3 rounded-full"></i>
+               
+                  
+                </section>
+                   <!-- Dots -->
+          
+            
+             </section>
+             <section class="grid relative items-center ">
+                <div class="bg-[url('./img/joshua.jpg')] bg-cover bg-center h-140 w-full"></div>
+                <section class=" absolute container grid md:gap-10 grid-cols-[40px_minmax(200px,_1fr)_40px] justify-items-start justify-self-center items-center px-3">
+    
+                    <i class="fa-solid fa-caret-left bg-green-500 py-2 px-3 rounded-full"></i>
+                    <article class="grid gap-5 text-white">
+                        <h1 class="font-medium text-3xl md:text-5xl max-w-[20ch]">
+                            Desenvolvemos ideias <br> com impacto real</span> para o seu sucesso
+                          </h1>
+                          <p class="text-[14px] md:text-[18px] leading-[auto] w-[40ch] justify-self-start">
+                            Consultoria com propósito social que cria valor, fomenta inovação e transforma realidades em comunidades locais.
+                          </p>
+                          
+                            <button id="openModal" class="openModal text-base bg-green-500 justify-self-start px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium block transition-all duration-300 ease-in-out hover:bg-green-600 hover:scale-105">
+                                Solicitar Serviço
+                              </button>
+                    </article>
+                    <i class="fa-solid fa-caret-right bg-green-500 py-2 px-3 rounded-full"></i>
+               
+                  
+                </section>
+                 
+          
+            
+             </section>
+             <section class="grid relative items-center ">
+                <div class="bg-[url('./img/olegas.jpg')] bg-cover bg-center h-140 w-full"></div>
+                <section class=" absolute container grid md:gap-10 grid-cols-[40px_minmax(200px,_1fr)_40px] justify-items-start justify-self-center items-center px-3">
+    
+                    <i class="fa-solid fa-caret-left bg-green-500 py-2 px-3 rounded-full"></i>
+                    <article class="grid gap-5 text-white">
+                        <h1 class="font-medium text-3xl md:text-5xl max-w-[20ch]">
+                            Construímos parcerias <br> com soluções reais</span> para o seu sucesso
+                          </h1>
+                          <p class="text-[14px] md:text-[18px] leading-[auto] w-[40ch] justify-self-start">
+                            Juntos criamos estratégias personalizadas que fortalecem negócios e impulsionam projectos sustentáveis em todo o país.
+                          </p>
+                          
+                            <button id="openModal" class="openModal text-base bg-green-500 justify-self-start px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium block transition-all duration-300 ease-in-out hover:bg-green-600 hover:scale-105">
+                                Solicitar Serviço
+                              </button>
+                    </article>
+                    <i class="fa-solid fa-caret-right bg-green-500 py-2 px-3 rounded-full"></i>
+               
+                  
+                </section>
+                
+          
+            
+             </section>
+   
+             
+         </section>
+         <article class="absolute flex justify-center left-0 right-0 z-100  top-140 gap-1" id="meus-dots-um">
+            <div class="w-3 h-3 border border-green-500 rounded-full"></div>
+            <div class="w-3 h-3 border border-green-500 rounded-full"></div>
+            <div class="w-3 h-3 border border-green-500 rounded-full"></div>
+            <div class="w-3 h-3 border border-green-500 rounded-full"></div>
+
+        </article>
+         
+        
+         
+  
+
+
+
+
+
+
+              <!-- Sessao 1 -->
+              <section class="mt-20  grid gap-2 justify-center sm:px-5  text-black px-3">
+                <article
+                    class="container grid gap-10 justify-between grid-cols-1 lg:grid-cols-2 items-center justify-items-start  ">
+                    <img class="h-auto  max-w-full block object-cover" src="./img/About us page-bro.svg" alt="">
+                    <aside class="grid gap-5 ">
+                        <h2 class="text-2xl md:text-4xl text-black  font-bold">Quem somos</h2>
+                        <p class="text-[14px] rounded  font-medium text-[16px]">A Consultoria do PEA é uma
+                            empresa moçambicana que atua com foco na educação, desenvolvimento económico e sustentabilidade
+                            social. Trabalhamos com dedicação para oferecer soluções eficientes e adaptadas à realidade dos
+                            nossos clientes.</p>
+                        <h4 class="text-lg font-semibold text-green-600 mb-3">O que nos define:</h4>
+                        <div class="block text-gray-700 space-y-2">
+                            <p><i class="fas fa-check-circle text-green-500 mr-2"></i>oferecem soluções práticas e eficientes para a gestão documental, 
+                                organização interna....</p>
+                            <p><i class="fas fa-check-circle text-green-500 mr-2"></i>Abordagem
+                                personalizada, colaborativa
+                                e orientada para resultados.</p>
+                            <p><i class="fas fa-check-circle text-green-500 mr-2"></i>Apoio especializado
+                                a empreendedores,
+                                estudantes e organizações.</p>
+                            <p><i class="fas fa-check-circle text-green-500 mr-2"></i>Equipa
+                                multidisciplinar, qualificada e
+                                dedicada.</p>
+                            <p><i class="fas fa-check-circle text-green-500 mr-2"></i>Presença activa na
+                                cidade de Pemba,
+                                com impacto regional.</p>
+                            <p><i class="fas fa-check-circle text-green-500 mr-2"></i>Promoção de cursos,
+                                formações,
+                                consultorias e projetos inovadores.</p>
+                        </div>
+                        <a class="mt-10 justify-self-center w-50 text-center lg:justify-self-start text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium block transition-all duration-300 ease-in-out hover:bg-green-600 hover:scale-105"
+                            href="">Saiba Mais</a>
+    
+                    </aside>
+                </article>
+            </section>
+
+        <!-- <section class="grid justify-center">
+            <section class="container grid items-center grid-cols-1 sm:grid-cols-2 gap-10">
+
+                <section class="grid justify-items-start gap-5">
+                    <h1 class="font-medium text-3xl md:text-5xl">Transformamos <span class="text-green-500">ideias <br>
+                            em
+                            soluções reais</span> para o seu sucesso</h1>
+                    <p class="text-[14px] md:text-[18px] leading-[auto] text-black">Soluções práticas e
+                        personalizadas
+                        para promover a educação, o desenvolvimento económico e a coesão social em comunidades por todo
+                        o
+                        país.</p>
+                    <a class="text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium block transition-all duration-300 ease-in-out hover:bg-green-600 hover:scale-105"
+                        href="">Solicitar Serviço</a>
+                </section>
+                <div>
+                    <img class="max-w-full" src="./img/Consulting-bro.svg" alt="">
+                </div>
+            </section>
+        </section> -->
+
+    
+
+        <!-- Sessao 2 -->
+        <section class="mt-20 bg-green-800 grid justify-center px-3">
+            <section class="container py-20 text-white">
+                <span class="text-green-400 text-2xl">O que oferecemos</span>
+                <h2 class="text-4xl font-bold">Os nossos melhores serviços</h2>
+                <p class="max-w-[53ch]">Oferecemos serviços práticos e personalizados para apoiar o seu sucesso, seja na
+                    gestão, tecnologia, educação ou desenvolvimento de projectos.</p>
+                <section class="mt-15 grid-cols-1 sm:grid-cols-2  grid lg:grid-cols-3 gap-5 lg:gap-10   ">
+                    <!-- Contabilidade -->
+                    <section class="gridp-10 rounded bg-green-200 p-5">
+                        <span class="fas fa-calculator text-green-600 text-6xl p-3 rounded"></span>
+                        <article class="grid gap-1">
+                            <h3 class="text-[14px] text-black rounded text-[#F4FBF7] font-bold text-[18px]">Contabilidade e Auditoria</h3>
+                            <p class="text-[14px] rounded text-black font-medium text-[16px]">
+                                • Criação de empresas e gestão fiscal<br>
+                                • Processamento salarial e declarações<br>
+                                • Auditorias internas/externas e formação
+                            </p>
+                            <a href="#" class="mt-5 inline-flex items-center gap-2 text-[16px] text-black font-medium transition-all duration-300 ease-in-out hover:text-green-500 group">
+                                Ler mais
+                                <i class="fas fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
+                            </a>
+                        </article>
+                    </section>
+        
+                    <!-- Administrativo -->
+                    <section class="gridp-10 rounded bg-green-200 p-5">
+                        <span class="fas fa-file-alt text-green-600 text-6xl p-3 rounded"></span>
+                        <article class="grid gap-1">
+                            <h3 class="text-[14px] text-black rounded text-[#F4FBF7] font-bold text-[18px]">Serviços Administrativos</h3>
+                            <p class="text-[14px] rounded text-black font-medium text-[16px]">
+                                • Digitalização de arquivos físicos/digitais<br>
+                                • Gestão de correspondência e agendas<br>
+                                • Tradução juramentada em 4 idiomas
+                            </p>
+                            <a href="#" class="mt-5 inline-flex items-center gap-2 text-[16px] text-black font-medium transition-all duration-300 ease-in-out hover:text-green-500 group">
+                                Ler mais
+                                <i class="fas fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
+                            </a>
+                        </article>
+                    </section>
+        
+                    <!-- Programação -->
+                    <section class="gridp-10 rounded bg-green-200 p-5">
+                        <span class="fas fa-code text-green-600 text-6xl p-3 rounded"></span>
+                        <article class="grid gap-1">
+                            <h3 class="text-[14px] text-black rounded text-[#F4FBF7] font-bold text-[18px]">Programação Informática</h3>
+                            <p class="text-[14px] rounded text-black font-medium text-[16px]">
+                                • Websites e aplicativos móveis<br>
+                                • Sistemas de gestão (ERP/RH)<br>
+                                • Integração e segurança de sistemas
+                            </p>
+                            <a href="#" class="mt-5 inline-flex items-center gap-2 text-[16px] text-black font-medium transition-all duration-300 ease-in-out hover:text-green-500 group">
+                                Ler mais
+                                <i class="fas fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
+                            </a>
+                        </article>
+                    </section>
+        
+                    <!-- Design -->
+                    <section class="gridp-10 rounded bg-green-200 p-5">
+                        <span class="fas fa-palette text-green-600 text-6xl p-3 rounded"></span>
+                        <article class="grid gap-1">
+                            <h3 class="text-[14px] text-black rounded text-[#F4FBF7] font-bold text-[18px]">Design Gráfico</h3>
+                            <p class="text-[14px] rounded text-black font-medium text-[16px]">
+                                • Logótipos e identidade visual<br>
+                                • Materiais institucionais e digitais<br>
+                                • Diagramação de livros/revistas
+                            </p>
+                            <a href="#" class="mt-5 inline-flex items-center gap-2 text-[16px] text-black font-medium transition-all duration-300 ease-in-out hover:text-green-500 group">
+                                Ler mais
+                                <i class="fas fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
+                            </a>
+                        </article>
+                    </section>
+        
+                    <!-- Pesquisas -->
+                    <section class="gridp-10 rounded bg-green-200 p-5">
+                        <span class="fas fa-graduation-cap text-green-600 text-6xl p-3 rounded"></span>
+                        <article class="grid gap-1">
+                            <h3 class="text-[14px] text-black rounded text-[#F4FBF7] font-bold text-[18px]">Pesquisas Académicas</h3>
+                            <p class="text-[14px] rounded text-black font-medium text-[16px]">
+                                • Apoio em TCCs e relatórios<br>
+                                • Metodologia científica e análise<br>
+                                • Projectos alinhados com ODS
+                            </p>
+                            <a href="#" class="mt-5 inline-flex items-center gap-2 text-[16px] text-black font-medium transition-all duration-300 ease-in-out hover:text-green-500 group">
+                                Ler mais
+                                <i class="fas fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
+                            </a>
+                        </article>
+                    </section>
+        
+                    <!-- Marketing -->
+                    <section class="gridp-10 rounded bg-green-200 p-5">
+                        <span class="fas fa-bullhorn text-green-600 text-6xl p-3 rounded"></span>
+                        <article class="grid gap-1">
+                            <h3 class="text-[14px] text-black rounded text-[#F4FBF7] font-bold text-[18px]">Marketing Digital</h3>
+                            <p class="text-[14px] rounded text-black font-medium text-[16px]">
+                                • Gestão de redes sociais<br>
+                                • Campanhas Google/Facebook Ads<br>
+                                • SEO e análise de desempenho
+                            </p>
+                            <a href="#" class="mt-5 inline-flex items-center gap-2 text-[16px] text-black font-medium transition-all duration-300 ease-in-out hover:text-green-500 group">
+                                Ler mais
+                                <i class="fas fa-arrow-right transition-transform duration-300 group-hover:translate-x-1"></i>
+                            </a>
+                        </article>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <!-- Sessao 3 -->
+         
+      <!-- seccao 4 -->
+        <section class="mt-20  justify-center px-3">
+  <h2 class="text-3xl font-bold text-center mb-10">Os nossos Cursos</h2>
+  <section class=" container m-auto flex md:gap-5 justify-items-start items-center">
+    <!-- <i id="prev-slide" class="fa-solid fa-caret-left bg-green-500 py-2 px-3 rounded-full"></i> -->
+    <section>
+        
+    </section>
+    <section id="carrossel-dois" class="owl-carousel">
+      <!-- Curso 1 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/rh.jpeg" alt="GRH">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / GRH</span>
+          <h4 class="font-bold text-xl">Gestão de Recursos Humanos</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>6 semanas</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+      <!-- Curso 2 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/secretariado.jpeg" alt="SAE">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / SAE</span>
+          <h4 class="font-bold text-xl">Secretariado e Administração de Escritórios</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>6 semanas</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+      <!-- Curso 3 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/hst.jpeg" alt="HST">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / HST</span>
+          <h4 class="font-bold text-xl">Higiene e Segurança no Trabalho</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>6 semanas</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+      <!-- Curso 4 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/marketing.jpeg" alt="MTV">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / MTV</span>
+          <h4 class="font-bold text-xl">Marketing e Técnicas de Venda</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>6 semanas</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+      <!-- Curso 5 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/Relacoes.jpeg" alt="RPL">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / RPL</span>
+          <h4 class="font-bold text-xl">Relações Públicas e Liderança</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>6 semanas</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+      <!-- Curso 6 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/procuremenm.jpeg" alt="LP">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / LP</span>
+          <h4 class="font-bold text-xl">Logística e Procurement</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>6 semanas</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+      <!-- Curso 7 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/contabil.jpeg" alt="CB">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / CB</span>
+          <h4 class="font-bold text-xl">Contabilidade Básica</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>3 meses</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+      <!-- Curso 8 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/ingles.jpeg" alt="IB">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / IB</span>
+          <h4 class="font-bold text-xl">Inglês Básico</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>3 meses</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+       <!-- Curso 9 -->
+  <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/empresarial.jpeg" alt="GE">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / GE</span>
+          <h4 class="font-bold text-xl">Gestão Empresarial</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>6 semanas</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+      <!-- Curso 10 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/gestaopro.jpeg" alt="EGP">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / EGP</span>
+          <h4 class="font-bold text-xl">Elaboração e Gestão de Projetos</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>6 semanas</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+      <!-- Curso 11 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="./img/" alt="G.A.S">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / G.A.S</span>
+          <h4 class="font-bold text-xl">Gestão Ambiental e Saneamento</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>6 semanas</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+
+      <!-- Curso 12 -->
+      <article class="bg-green-200 border-l-4 border-green-500 rounded">
+        <aside class="relative">
+          <img src="https://source.unsplash.com/400x250/?computer,basic" alt="Informática Básica">
+          <span class="absolute bottom-5 left-2 bg-green-500 px-5 text-white rounded-full">Online</span>
+        </aside>
+        <aside class="grid gap-2 p-5">
+          <span class="mb-2">Curso / I.B</span>
+          <h4 class="font-bold text-xl">Informática Básica</h4>
+          <span><i class="fa-solid fa-clock mr-1 text-green-600"></i>1h/dia</span>
+          <span><i class="fa-solid fa-calendar-days mr-1 text-green-600"></i>6 semanas</span>
+          <a class="text-center text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium hover:bg-green-600 hover:scale-105" href="">Saiba Mais</a>
+        </aside>
+      </article>
+    </section>
+
+    <!-- <i id="next-slide" class="fa-solid fa-caret-right bg-green-500 py-2 px-3 rounded-full"></i> -->
+  </section>
+
+  <!-- Dots -->
+  <article class=" flex justify-center left-0 right-0 gap-1" id="meus-dots-dois">
+    <div class="w-3 h-3 border border-green-500 rounded-full"></div>
+    <div class="w-3 h-3 border border-green-500 rounded-full"></div>
+    <div class="w-3 h-3 border border-green-500 rounded-full"></div>
+    <div class="w-3 h-3 border border-green-500 rounded-full"></div>
+</article>
+</section>
+
+
+        <!-- seccao 5 -->
+<section class="mt-20 grid justify-center px-3">
+    <section class="container">
+        <h2 class="text-3xl font-bold text-center mb-10">Perguntas Frequentes</h2>
+
+        <dl class="grid gap-5">
+
+            <article id="faqs"  class="border border-green-500 grid gap-5 p-5 rounded">
+                <aside class="flex gap-10 justify-between">
+                    <dt class="">O que é a Consultoria do PEA?</dt>
+                    <i class="fa-solid fa-plus"></i>
+                </aside>
+                <dd class="max-w-[100ch] hidden">A Consultoria do PEA é uma empresa que oferece soluções personalizadas nas áreas de educação, economia, sustentabilidade e apoio comunitário.</dd>
+            </article>
+
+            <article id="faqs" class="border grid gap-5 p-5 rounded">
+                <aside class="flex gap-10 justify-between">
+                    <dt class="">Que serviços vocês oferecem?</dt>
+                    <i class="fa-solid fa-plus"></i>
+                </aside>
+              
+                <dd  class="max-w-[100CH] hidden">Oferecemos consultoria, contabilidade, auditoria, apoio administrativo, programação, design, formações, workshops e muito mais.</dd>
+            </article>
+
+            <article id="faqs" class="border grid gap-5 p-5 rounded">
+                <aside class="flex gap-10 justify-between">
+                    <dt class="">Como posso inscrever-me num curso?</dt>
+                    <i class="fa-solid fa-plus"></i>
+                </aside>
+                <dd id="para" class="max-w-[100CH] hidden">Podes inscrever-te através do nosso site ou entrando em contacto connosco por telefone ou WhatsApp.</dd>
+            </article>
+
+            <article id="faqs" class="border grid gap-5 p-5 rounded">
+                <aside class="flex gap-10 justify-between">
+                    <dt class="">Vocês só atendem clientes em Pemba?</dt>
+                    <i class="fa-solid fa-plus"></i>
+                </aside>
+                <dd id="para" class="max-w-[100CH] hidden">Podes inscrever-te através do nosso site ou entrando em contacto connosco por telefone ou WhatsApp.</dd>
+
+             
+            </article>
+
+            <article id="faqs" class="border grid gap-5 p-5 rounded">
+                <aside class="flex gap-10 justify-between">
+                    <dt class="">Os cursos são presenciais ou online?</dt>
+                    <i class="fa-solid fa-plus"></i>
+                </aside>
+                <dd id="para" class="max-w-[100CH] hidden">Podes inscrever-te através do nosso site ou entrando em contacto connosco por telefone ou WhatsApp.</dd>
+            
+            </article>
+
+        </dl>
+    </section>
+    <h5 class="text-2xl font-bold text-center mb-2 mt-5">Ainda tem alguma dúvida?</h5>
+    <p class="max-w-[60ch] text-center justify-self-center">Se precisar de ajuda, encontre a resposta para sua pergunta em FAQ e você sempre estará em contato conosco. Responderemos em breve!</p>
+
+</section>
+
+<!-- seccao 6 -->
+<section class="grid justify-center">
+    <section class="conatiner">
+
+    </section>
+</section>
+
+
+    </main>
+    <footer class="mt-20 bg-green-700 grid justify-center px-3 py-5">
+        
+        <section class="container flex gap-5 lg:gap-10 flex-col md:flex-row sm:justify-center md:justify-between">
+
+            <!-- Logo + descrição -->
+            <section>
+                <img src="./img/logo-white.png" alt="" width="300">
+                <p class="text-[#F4FBF7] text-sm mt-4 max-w-[250px]">
+                    Consultoria do PEA — Soluções personalizadas para promover o desenvolvimento educativo, económico e
+                    social em Pemba e outras regiões.
+                </p>
+            </section>
+
+            <!-- Links organizados por temas -->
+            <section
+                class="grid grid-cols-[repeat(2,_minmax(0px,_1fr))] md:grid-cols-[repeat(4,_minmax(100px,_1fr))] gap-5 lg:gap-10">
+
+                <section>
+                    <h2 class="font-medium font-[16px] text-white">A Empresa</h2>
+                    <ul>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Sobre Nós</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Missão & Visão</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Equipa</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Parceiros</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="font-medium font-[16px] text-white">Serviços</h2>
+                    <ul>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Consultoria</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Contabilidade & Auditoria</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Design & Programação</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Gestão de Projectos</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="font-medium font-[16px] text-white">Formações</h2>
+                    <ul>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Cursos Profissionais</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Workshops</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Capacitação Técnica</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Psicopedagogia</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="font-medium font-[16px] text-white">Contactos</h2>
+                    <ul>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Pemba - Cabo Delgado</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="tel:+258XXXXXXXXX">+258 XX XXX XXXX</a>
+                        </li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block"
+                                href="mailto:consultoriaupea@gmail.com">consu</a></li>
+                        <li><a class="text-[#F4FBF7] py-3 text-sm block" href="#">Facebook / WhatsApp</a></li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+
+        <hr class=" text-green-600">
+        <p
+            class="py-5 md:text-start text-center 2xl:px-60 p-2 md:px-40 py-2 font-regular font-[14px] md:font-[16px] text-[#F4FBF7]">
+            © 2025 Consultoria do PEA. Todos os direitos reservados.
+        </p>
+    </footer>
+
+
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script><script>
+    $(document).ready(function () {
+      // Carrossel 1: 1 item por slide com dots personalizados
+      const owl1 = $("#carrossel-um");
+      const dotCount1 = $("#meus-dots-um div").length;
+    
+      owl1.owlCarousel({
+        loop: true,
+        nav: false,
+        margin: 20,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      });
+    
+      // Dots personalizados - clique (primeiro carrossel)
+      $("#meus-dots-um div").click(function () {
+        const clickedDotIndex = $(this).index();
+        const currentIndex = owl1.find('.owl-item.active').index() - owl1.find('.cloned').length / 2;
+        const newIndex = (Math.floor(currentIndex / dotCount1) * dotCount1) + clickedDotIndex;
+        owl1.trigger("to.owl.carousel", [newIndex, 300]);
+      });
+    
+      // Atualizar visual dos dots ao mudar slide (primeiro carrossel)
+      owl1.on("changed.owl.carousel", function (event) {
+        const count = event.item.count;
+        const index = (event.item.index - event.relatedTarget._clones.length / 2 + count) % count;
+        const activeDot = index % dotCount1;
+    
+        $("#meus-dots-um div").removeClass("bg-green-500").addClass("bg-white");
+        $("#meus-dots-um div").eq(activeDot).removeClass("bg-white").addClass("bg-green-500");
+      });
+    
+      // Botões externos para o primeiro carrossel
+      $("#prev-slide-um").click(function () {
+        owl1.trigger("prev.owl.carousel");
+      });
+    
+      $("#next-slide-um").click(function () {
+        owl1.trigger("next.owl.carousel");
+      });
+    
+      // Carrossel 2: com 3 itens por slide com dots personalizados
+      const owl2 = $("#carrossel-dois");
+      const dotCount2 = $("#meus-dots-dois div").length;
+    
+      owl2.owlCarousel({
+        loop: true,
+        nav: false,
+        margin: 20,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        responsive: {
+      0: {
+        items: 1 // Telemóvel
+      },
+      640: {
+        items: 1 // Tablets pequenos
+      },
+      1024: {
+        items: 3 // Portáteis
+      },
+      1280: {
+        items: 4 // Desktops grandes (se precisares)
+      }
+        }
+      });
+  
+      // Dots personalizados - clique (segundo carrossel)
+      $("#meus-dots-dois div").click(function () {
+        const clickedDotIndex = $(this).index();
+        const currentIndex = owl2.find('.owl-item.active').index() - owl2.find('.cloned').length / 2;
+        const newIndex = (Math.floor(currentIndex / dotCount2) * dotCount2) + clickedDotIndex;
+        owl2.trigger("to.owl.carousel", [newIndex, 300]);
+      });
+  
+      // Atualizar visual dos dots ao mudar slide (segundo carrossel)
+      owl2.on("changed.owl.carousel", function (event) {
+        const count = event.item.count;
+        const index = (event.item.index - event.relatedTarget._clones.length / 2 + count) % count;
+        const activeDot = index % dotCount2;
+    
+        $("#meus-dots-dois div").removeClass("bg-green-500").addClass("bg-white");
+        $("#meus-dots-dois div").eq(activeDot).removeClass("bg-white").addClass("bg-green-500");
+      });
+  
+      // Botões externos para o segundo carrossel
+      $("#prev-slide-dois").click(function () {
+        owl2.trigger("prev.owl.carousel");
+      });
+    
+      $("#next-slide-dois").click(function () {
+        owl2.trigger("next.owl.carousel");
+      });
+    });
+  </script>
+  <script src="./index.js"></script>
+
+  
+  
+    
+
+</html>
