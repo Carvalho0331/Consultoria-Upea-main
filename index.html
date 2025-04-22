@@ -15,9 +15,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
-    
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+        
+        <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
 
     <title>CPEA</title>
 </head>
@@ -245,27 +245,7 @@
                 </article>
             </section>
 
-        <!-- <section class="grid justify-center">
-            <section class="container grid items-center grid-cols-1 sm:grid-cols-2 gap-10">
-
-                <section class="grid justify-items-start gap-5">
-                    <h1 class="font-medium text-3xl md:text-5xl">Transformamos <span class="text-green-500">ideias <br>
-                            em
-                            soluções reais</span> para o seu sucesso</h1>
-                    <p class="text-[14px] md:text-[18px] leading-[auto] text-black">Soluções práticas e
-                        personalizadas
-                        para promover a educação, o desenvolvimento económico e a coesão social em comunidades por todo
-                        o
-                        país.</p>
-                    <a class="text-base bg-green-500 px-[32px] py-[12.5px] rounded text-[#F4FBF7] font-medium block transition-all duration-300 ease-in-out hover:bg-green-600 hover:scale-105"
-                        href="">Solicitar Serviço</a>
-                </section>
-                <div>
-                    <img class="max-w-full" src="./img/Consulting-bro.svg" alt="">
-                </div>
-            </section>
-        </section> -->
-
+       
     
 
         <!-- Sessao 2 -->
@@ -587,69 +567,139 @@
 
 
         <!-- seccao 5 -->
-<section class="mt-20 grid justify-center px-3">
-    <section class="container">
-        <h2 class="text-3xl font-bold text-center mb-10">Perguntas Frequentes</h2>
-
-        <dl class="grid gap-5">
-
-            <article id="faqs"  class="border border-green-500 grid gap-5 p-5 rounded">
-                <aside class="flex gap-10 justify-between">
-                    <dt class="">O que é a Consultoria do PEA?</dt>
-                    <i class="fa-solid fa-plus"></i>
-                </aside>
-                <dd class="max-w-[100ch] hidden">A Consultoria do PEA é uma empresa que oferece soluções personalizadas nas áreas de educação, economia, sustentabilidade e apoio comunitário.</dd>
-            </article>
-
-            <article id="faqs" class="border grid gap-5 p-5 rounded">
-                <aside class="flex gap-10 justify-between">
-                    <dt class="">Que serviços vocês oferecem?</dt>
-                    <i class="fa-solid fa-plus"></i>
-                </aside>
-              
-                <dd  class="max-w-[100CH] hidden">Oferecemos consultoria, contabilidade, auditoria, apoio administrativo, programação, design, formações, workshops e muito mais.</dd>
-            </article>
-
-            <article id="faqs" class="border grid gap-5 p-5 rounded">
-                <aside class="flex gap-10 justify-between">
-                    <dt class="">Como posso inscrever-me num curso?</dt>
-                    <i class="fa-solid fa-plus"></i>
-                </aside>
-                <dd id="para" class="max-w-[100CH] hidden">Podes inscrever-te através do nosso site ou entrando em contacto connosco por telefone ou WhatsApp.</dd>
-            </article>
-
-            <article id="faqs" class="border grid gap-5 p-5 rounded">
-                <aside class="flex gap-10 justify-between">
-                    <dt class="">Vocês só atendem clientes em Pemba?</dt>
-                    <i class="fa-solid fa-plus"></i>
-                </aside>
-                <dd id="para" class="max-w-[100CH] hidden">Podes inscrever-te através do nosso site ou entrando em contacto connosco por telefone ou WhatsApp.</dd>
-
-             
-            </article>
-
-            <article id="faqs" class="border grid gap-5 p-5 rounded">
-                <aside class="flex gap-10 justify-between">
-                    <dt class="">Os cursos são presenciais ou online?</dt>
-                    <i class="fa-solid fa-plus"></i>
-                </aside>
-                <dd id="para" class="max-w-[100CH] hidden">Podes inscrever-te através do nosso site ou entrando em contacto connosco por telefone ou WhatsApp.</dd>
-            
-            </article>
-
-        </dl>
-    </section>
-    <h5 class="text-2xl font-bold text-center mb-2 mt-5">Ainda tem alguma dúvida?</h5>
-    <p class="max-w-[60ch] text-center justify-self-center">Se precisar de ajuda, encontre a resposta para sua pergunta em FAQ e você sempre estará em contato conosco. Responderemos em breve!</p>
-
-</section>
+        <section class="mt-20 grid justify-center px-3">
+            <section class="container">
+                <h2 class="text-3xl font-bold text-center mb-10">Perguntas Frequentes</h2>
+        
+                <dl class="grid gap-5">
+        
+                    <article class="faq-item border border-gray-300 grid gap-5 p-5 rounded" data-open="true">
+                        <aside class="flex gap-10 justify-between items-center cursor-pointer">
+                            <dt class="font-medium">O que é a Consultoria do PEA?</dt>
+                            <i class="fa-solid fa-minus text-green-500"></i>
+                        </aside>
+                        <dd class="max-w-[100ch]">A Consultoria do PEA é uma empresa que oferece soluções personalizadas nas áreas de educação, economia, sustentabilidade e apoio comunitário.</dd>
+                    </article>
+        
+                    <article class="faq-item border border-gray-300 grid gap-5 p-5 rounded">
+                        <aside class="flex gap-10 justify-between items-center cursor-pointer">
+                            <dt class="font-medium">Que serviços vocês oferecem?</dt>
+                            <i class="fa-solid fa-plus"></i>
+                        </aside>
+                        <dd class="max-w-[100ch] hidden">Oferecemos consultoria, contabilidade, auditoria, apoio administrativo, programação, design, formações, workshops e muito mais.</dd>
+                    </article>
+        
+                    <article class="faq-item border border-gray-300 grid gap-5 p-5 rounded">
+                        <aside class="flex gap-10 justify-between items-center cursor-pointer">
+                            <dt class="font-medium">Como posso inscrever-me num curso?</dt>
+                            <i class="fa-solid fa-plus"></i>
+                        </aside>
+                        <dd class="max-w-[100ch] hidden">Podes inscrever-te através do nosso site ou entrando em contacto connosco por telefone ou WhatsApp.</dd>
+                    </article>
+        
+                    <article class="faq-item border border-gray-300 grid gap-5 p-5 rounded">
+                        <aside class="flex gap-10 justify-between items-center cursor-pointer">
+                            <dt class="font-medium">Vocês só atendem clientes em Pemba?</dt>
+                            <i class="fa-solid fa-plus"></i>
+                        </aside>
+                        <dd class="max-w-[100ch] hidden">Podes inscrever-te através do nosso site ou entrando em contacto connosco por telefone ou WhatsApp.</dd>
+                    </article>
+        
+                    <article class="faq-item border border-gray-300 grid gap-5 p-5 rounded">
+                        <aside class="flex gap-10 justify-between items-center cursor-pointer">
+                            <dt class="font-medium">Os cursos são presenciais ou online?</dt>
+                            <i class="fa-solid fa-plus"></i>
+                        </aside>
+                        <dd class="max-w-[100ch] hidden">Podes inscrever-te através do nosso site ou entrando em contacto connosco por telefone ou WhatsApp.</dd>
+                    </article>
+        
+                </dl>
+            </section>
+            <h5 class="text-2xl font-bold text-center mb-2 mt-5">Ainda tem alguma dúvida?</h5>
+            <p class="max-w-[60ch] text-center justify-self-center">Se precisar de ajuda, encontre a resposta para sua pergunta em FAQ e você sempre estará em contato conosco. Responderemos em breve!</p>
+        </section>
 
 <!-- seccao 6 -->
-<section class="grid justify-center">
-    <section class="conatiner">
+<section class="mt-20 py-16 bg-white">
+    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-start max-w-6xl">
+      
+        <!-- Contact Information -->
+        <article class="space-y-8">
+            <header class="space-y-4">
+                <h2 class="text-4xl font-bold text-gray-900">Contact us</h2>
+                <p class="text-gray-600 text-lg">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non tellus nullam ultrices netus mauris, phasellus.
+                </p>
+            </header>
 
-    </section>
+            <div class="space-y-6">
+                <!-- Address with green border -->
+                <div class="flex items-center gap-4 border border-green-500 rounded-lg p-4 w-fit">
+                    <i class="fas fa-map-marker-alt text-green-500 text-xl"></i>
+                    <span class="text-green-500 font-medium">102 Street 2774 Don</span>
+                </div>
+
+                <!-- Phone -->
+                <div class="flex items-center gap-4">
+                    <i class="fas fa-phone-alt text-gray-700 text-xl"></i>
+                    <span class="text-gray-900">0185 17 35 08</span>
+                </div>
+
+                <!-- Email -->
+                <div class="flex items-center gap-4">
+                    <i class="fas fa-envelope text-gray-700 text-xl"></i>
+                    <a href="mailto:contact@deliver.com" class="text-gray-900 hover:underline">contact@deliver.com</a>
+                </div>
+            </div>
+
+            <!-- Social Media -->
+            <div class="flex gap-4 pt-4">
+                <a href="#" class="text-gray-700 hover:text-green-500 transition-colors">
+                    <i class="fab fa-facebook-f text-2xl"></i>
+                </a>
+                <a href="#" class="bg-green-500 text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-green-600 transition-colors">
+                    <i class="fab fa-twitter text-lg"></i>
+                </a>
+                <a href="#" class="text-gray-700 hover:text-green-500 transition-colors">
+                    <i class="fab fa-instagram text-2xl"></i>
+                </a>
+            </div>
+        </article>
+
+        <!-- Contact Form -->
+        <form class="bg-white rounded-lg space-y-6">
+            <!-- Name -->
+            <div>
+                <label class="block text-gray-700 font-medium mb-2">Name</label>
+                <input type="text" placeholder="Christian Ball" 
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500">
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label class="block text-gray-700 font-medium mb-2">Email</label>
+                <input type="email" placeholder="Christian Bal@gmail.com" 
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500">
+            </div>
+
+            <!-- Message -->
+            <div>
+                <label class="block text-gray-700 font-medium mb-2">Message</label>
+                <textarea rows="4" placeholder="Message..." 
+                          class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" 
+                    class="w-full bg-green-500 text-white font-medium py-3 px-6 rounded-lg hover:bg-green-600 transition-colors">
+                Send Message
+            </button>
+        </form>
+    </div>
 </section>
+  
+
+  
 
 
     </main>
@@ -720,18 +770,13 @@
             © 2025 Consultoria do PEA. Todos os direitos reservados.
         </p>
     </footer>
-    
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  
- <script src="./index.js"></script>
-    
-    <script>
-
-if (typeof jQuery === 'undefined') {
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script><script>
+    $(document).ready(function () {
+        if (typeof jQuery === 'undefined') {
     alert('Erro: jQuery não foi carregado!');
   } else {
     console.log('jQuery carregado com sucesso.');
@@ -740,8 +785,10 @@ if (typeof jQuery === 'undefined') {
 
 
 
-        
-    $(document).ready(function () {
+
+
+
+
       // Carrossel 1: 1 item por slide com dots personalizados
       const owl1 = $("#carrossel-um");
       const dotCount1 = $("#meus-dots-um div").length;
@@ -848,7 +895,7 @@ if (typeof jQuery === 'undefined') {
       });
     });
   </script>
- 
+  <script src="./index.js"></script>
 
   
   

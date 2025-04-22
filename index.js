@@ -25,20 +25,25 @@ window.addEventListener("resize", () => {
   }
 });
 
-
-
-
-const faqs = document.querySelectorAll('#faqs');
-
-faqs.forEach(faq => {
-  const cabecalho = faq.querySelector('aside');
-  const resposta = faq.querySelector('dd');
-  const icone = faq.querySelector('i');
-
-  cabecalho.addEventListener('click', () => {
-    resposta.classList.toggle('hidden');
-    icone.classList.toggle('fa-plus');
-    icone.classList.toggle('fa-minus');
+document.querySelectorAll('.faq-item').forEach(item => {
+  const header = item.querySelector('aside');
+  const icon = header.querySelector('i');
+  const content = item.querySelector('dd');
+  
+  // Abre o primeiro item por padrão
+  if (item === document.querySelector('.faq-item:first-child')) {
+      item.classList.add('border-green-500');
+      icon.classList.replace('fa-plus', 'fa-minus');
+  }
+  
+  header.addEventListener('click', () => {
+      const isOpen = icon.classList.contains('fa-minus');
+      
+      // Alterna estado
+      icon.classList.toggle('fa-minus', !isOpen);
+      icon.classList.toggle('fa-plus', isOpen);
+      content.classList.toggle('hidden', isOpen);
+      item.classList.toggle('border-green-500', !isOpen);
+      item.classList.toggle('border-gray-300', isOpen);
   });
 });
-
